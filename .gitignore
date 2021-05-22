@@ -1,0 +1,42 @@
+# Created by .ignore support plugin
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# project
+*.classpath
+*.project
+*.iml
+*.idea
+.idea/
+
+.idea/smartfox/common_info.xml
+.idea/workspace.xml
+
+target
+.idea
+.DS_Store
+*.iml
+/bin/
+*.ipr
+*.iws
+
+
