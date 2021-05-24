@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b0f69d-6584-49b2-9f7c-7864ee80b915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/L347.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/L215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sort/L215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/L19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/L19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/L21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/L21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/L234.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/L234.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/L24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/L24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/L328.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/L328.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/L445.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/L445.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/L725.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/L725.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L141$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L141$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L141.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L141.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L160$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L160$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L160.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L160.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L167.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L167.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L206$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L206$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L206.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L365.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L365.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L524.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L524.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L633.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L633.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L680.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L680.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L83$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L83$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L83.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L83.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoPointer/L88.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoPointer/L88.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/ListNode.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +52,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.L347">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.HeapSort" />
       <module name="learn" />
@@ -64,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.L234" />
+    <configuration name="L215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.L215" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="List.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L725" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.L725" />
+    <configuration name="L347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.L347" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="List.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L347" />
+        <item itemvalue="Application.L215" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.L328" />
-        <item itemvalue="Application.L725" />
-        <item itemvalue="Application.L234" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +172,7 @@
       <workItem from="1621752608062" duration="4000" />
       <workItem from="1621778569694" duration="6020000" />
       <workItem from="1621842377911" duration="344000" />
+      <workItem from="1621859271427" duration="4856000" />
     </task>
     <servers />
   </component>
@@ -319,6 +344,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Sort/HeapSort.java</url>
           <line>38</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sort/L347.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sort/L347.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
