@@ -57,7 +57,7 @@ public class L687 {
 
         temp4.right = temp6;
 
-        TreeNode.print(root);
+        TreeNode.preOrder(root);
 
         System.out.println("length = " + String.valueOf(longestUnivaluePath(null)));
     }

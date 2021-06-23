@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b0f69d-6584-49b2-9f7c-7864ee80b915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/L337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/L671.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Threadpool/CompletableFutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/L144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/L145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/L513.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/L637.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/L94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/SearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Threadpool/CallerRunsPolicyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Threadpool/CallerRunsPolicyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/L617.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/L617.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/L687.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/L687.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/TreeNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.L337">
+  <component name="RunManager" selected="Application.SearchTest">
     <configuration name="CallerRunsPolicyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Threadpool.CallerRunsPolicyThread" />
       <module name="learn" />
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L337" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.L337" />
+    <configuration name="CompletableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threadpool.CompletableFutureTest" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.*" />
+          <option name="PATTERN" value="Threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.L404" />
+    <configuration name="L513" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.L513" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -129,20 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomTest" />
+    <configuration name="SearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.SearchTest" />
       <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L337" />
-        <item itemvalue="Application.CallerRunsPolicyThread" />
-        <item itemvalue="Application.RandomTest" />
+        <item itemvalue="Application.SearchTest" />
         <item itemvalue="Application.L687" />
-        <item itemvalue="Application.L404" />
+        <item itemvalue="Application.L513" />
+        <item itemvalue="Application.CompletableFutureTest" />
+        <item itemvalue="Application.CallerRunsPolicyThread" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +192,10 @@
       <workItem from="1623306024825" duration="1352000" />
       <workItem from="1623327496944" duration="2494000" />
       <workItem from="1623770603426" duration="4269000" />
-      <workItem from="1623846748851" duration="939000" />
+      <workItem from="1623846748851" duration="2597000" />
+      <workItem from="1623932839599" duration="5870000" />
+      <workItem from="1623997106577" duration="11000" />
+      <workItem from="1624278736124" duration="14460000" />
     </task>
     <servers />
   </component>
@@ -368,6 +387,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Tree/L404.java</url>
           <line>24</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tree/Printer.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

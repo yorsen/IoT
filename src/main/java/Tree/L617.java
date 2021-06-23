@@ -68,14 +68,14 @@ public class L617 {
         //temp5.right = temp7;
 
         System.out.println("rootOne");
-        TreeNode.print(rootOne);
+        TreeNode.preOrder(rootOne);
 
         System.out.println("rootTwo");
-        TreeNode.print(rootTwo);
+        TreeNode.preOrder(rootTwo);
 
         TreeNode root = mergeTrees(rootOne,rootTwo);
 
         System.out.println("rootCombine");
-        TreeNode.print(root);
+        TreeNode.preOrder(root);
     }
 }

@@ -19,14 +19,30 @@ public class TreeNode {
         this.right = right;
     }
 
-    public static void print(TreeNode root) {
+    public static void preOrder(TreeNode root) {
         if (root == null) {
             return;
         }
-
         System.out.println(root.val);
+        preOrder(root.left);
+        preOrder(root.right);
+    }
 
-        print(root.left);
-        print(root.right);
+    public static void middleOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        middleOrder(root.left);
+        System.out.println(root.val);
+        middleOrder(root.right);
+    }
+
+    public static void afterOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        afterOrder(root.left);
+        afterOrder(root.right);
+        System.out.println(root.val);
     }
 }
