@@ -19,20 +19,21 @@ public class SearchTest {
      */
 
     public static void main(String[] args) {
-        //TreeNode temp1 = new TreeNode(1);
-        //TreeNode temp2 = new TreeNode(2);
-        //TreeNode temp3 = new TreeNode(3);
-        //TreeNode temp4 = new TreeNode(4);
-        //TreeNode temp5 = new TreeNode(5);
-        //TreeNode temp6 = new TreeNode(6);
-        //
-        //temp1.left = temp2;
-        //temp1.right = temp3;
-        //temp2.left = temp4;
-        //temp2.right = temp5;
-        //temp3.right = temp6;
+        TreeNode temp1 = new TreeNode(1);
+        TreeNode temp2 = new TreeNode(2);
+        TreeNode temp3 = new TreeNode(3);
+        TreeNode temp4 = new TreeNode(4);
+        TreeNode temp5 = new TreeNode(5);
+        TreeNode temp6 = new TreeNode(6);
+
+        temp1.left = temp2;
+        temp1.right = temp3;
+        temp2.left = temp4;
+        temp2.right = temp5;
+        temp3.right = temp6;
         // 1,2,4,5,3,6
-        // TreeNode.preOrder(temp1);
+       //  TreeNode.preOrder(temp1);
+
 
         // 4,2,5,1,3,6
         //TreeNode.middleOrder(temp1);
@@ -48,16 +49,16 @@ public class SearchTest {
 
         //Printer.postOrder(temp1);
 
-        TreeNode temp1 = new TreeNode(1);
-        TreeNode temp2 = new TreeNode(2);
-        TreeNode temp3 = new TreeNode(3);
-
-        temp1.right = temp2;
-        temp2.left = temp3;
-
-        Long startTime = System.currentTimeMillis();
-        Printer.postOrder(temp1);
-
-        System.out.println(System.currentTimeMillis() - startTime);
+        //TreeNode temp1 = new TreeNode(1);
+        //TreeNode temp2 = new TreeNode(2);
+        //TreeNode temp3 = new TreeNode(3);
+        //
+        //temp1.right = temp2;
+        //temp2.left = temp3;
+        //
+        //Long startTime = System.currentTimeMillis();
+        //Printer.postOrder(temp1);
+        //
+        //System.out.println(System.currentTimeMillis() - startTime);
     }
 }
