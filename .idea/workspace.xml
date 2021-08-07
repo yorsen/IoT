@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b0f69d-6584-49b2-9f7c-7864ee80b915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L406.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L452.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StackAndQueue/MinQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StackAndQueue/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StackAndQueue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StackAndQueue/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StackAndQueue/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L392.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L605.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L665.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greedy/L763.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -78,9 +84,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.L122">
-    <configuration name="L121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.L121" />
+  <component name="RunManager" selected="Application.MinQueue">
+    <configuration name="L763" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.L763" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.L122" />
+    <configuration name="MinQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.MinQueue" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L406" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.L406" />
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.MyQueue" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L435" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.L435" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.MyStack" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L452" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.L452" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.Solution" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L122" />
-        <item itemvalue="Application.L121" />
-        <item itemvalue="Application.L406" />
-        <item itemvalue="Application.L452" />
-        <item itemvalue="Application.L435" />
+        <item itemvalue="Application.MinQueue" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.MyQueue" />
+        <item itemvalue="Application.L763" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +201,14 @@
       <workItem from="1625662819718" duration="2687000" />
       <workItem from="1625919611258" duration="1652000" />
       <workItem from="1626266508572" duration="7000" />
-      <workItem from="1626525090896" duration="3968000" />
+      <workItem from="1626525090896" duration="4286000" />
+      <workItem from="1626695789342" duration="2718000" />
+      <workItem from="1626872129699" duration="967000" />
+      <workItem from="1627477022106" duration="2292000" />
+      <workItem from="1627868014269" duration="1526000" />
+      <workItem from="1627953715146" duration="1308000" />
+      <workItem from="1628039204600" duration="1302000" />
+      <workItem from="1628125686521" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -437,6 +450,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/greedy/L406.java</url>
           <line>24</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StackAndQueue/MyQueue.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StackAndQueue/MyQueue.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StackAndQueue/MinQueue.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StackAndQueue/MinQueue.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
